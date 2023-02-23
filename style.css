@@ -1,0 +1,25 @@
+.block {
+    /* width: 100px; */
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-blocks .block {
+    border: 1px solid #f00;
+}
+
+.red-blocks {
+    border: 1px solid rgb(255, 0, 208);
+    display: flex;
+}
+
+.blue-blocks .block {
+    border: 1px solid rgb(0, 123, 255);
+}
+
+.blue-blocks {
+    border: 1px solid rgb(51, 0, 255);
+}
